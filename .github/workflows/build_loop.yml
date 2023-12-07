@@ -45,11 +45,10 @@ jobs:
           dexcom_sage \
           now_line \
           lnl_icon \
-          algorithm_experiments \
           future_carbs_4h \
-          algorithm_experiments \
           dexcom_upload_readings \ 
           2002 \
+          algorithm_experiments \
           testflight_expiration_warning
           
       # Patch Fastlane Match to not print tables
