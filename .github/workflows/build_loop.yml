@@ -50,9 +50,9 @@ jobs:
           lnl_icon \
           future_carbs_4h \
           dexcom_upload_readings \ 
-          2002 \
           algorithm_experiments \
-          testflight_expiration_warning
+          testflight_expiration_warning \
+          2002
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
