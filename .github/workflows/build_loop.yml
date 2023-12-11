@@ -51,8 +51,6 @@ jobs:
           future_carbs_4h \
           dexcom_upload_readings \
           2002 \
-          1988 \
-          2008 \
           algorithm_experiments \
           testflight_expiration_warning
           
