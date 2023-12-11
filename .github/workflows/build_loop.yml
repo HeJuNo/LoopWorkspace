@@ -50,7 +50,6 @@ jobs:
           lnl_icon \
           future_carbs_4h \
           dexcom_upload_readings \ 
-          algorithm_experiments \
           testflight_expiration_warning \
           2002
           
