@@ -50,8 +50,7 @@ jobs:
           lnl_icon \
           future_carbs_4h \
           dexcom_upload_readings \ 
-          testflight_expiration_warning \
-          2002
+          testflight_expiration_warning
           
       - name: Stop further actions 
         run: |
