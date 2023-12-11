@@ -50,7 +50,8 @@ jobs:
           lnl_icon \
           future_carbs_4h \
           dexcom_upload_readings \
-          2002
+          2002 \
+          algorithm_experiments
           
       - name: Stop further actions 
         run: |
