@@ -53,10 +53,6 @@ jobs:
           2002 \
           algorithm_experiments \
           testflight_expiration_warning
-          
-      - name: Stop further actions 
-        run: |
-          exit 1
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
@@ -77,6 +73,10 @@ jobs:
           FASTLANE_KEY: ${{ secrets.FASTLANE_KEY }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
           
+      - name: Stop further actions 
+        run: |
+          exit 1
+
       # Upload to TestFlight
       - name: Fastlane upload to TestFlight
         run: fastlane release
