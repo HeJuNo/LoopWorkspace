@@ -51,7 +51,8 @@ jobs:
           future_carbs_4h \
           dexcom_upload_readings \
           2002 \
-          algorithm_experiments
+          algorithm_experiments \
+          testflight_expiration_warning
           
       - name: Stop further actions 
         run: |
