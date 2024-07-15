@@ -283,6 +283,9 @@ jobs:
           FASTLANE_ISSUER_ID: ${{ secrets.FASTLANE_ISSUER_ID }}
           FASTLANE_KEY: ${{ secrets.FASTLANE_KEY }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+          LANGUAGE: en_US.UTF-8
       
       # Upload to TestFlight
       - name: Fastlane upload to TestFlight
@@ -294,6 +297,9 @@ jobs:
           FASTLANE_ISSUER_ID: ${{ secrets.FASTLANE_ISSUER_ID }}
           FASTLANE_KEY: ${{ secrets.FASTLANE_KEY }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+          LANGUAGE: en_US.UTF-8
 
       # Upload Build artifacts
       - name: Upload build log, IPA and Symbol artifacts
